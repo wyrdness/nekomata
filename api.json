@@ -1,0 +1,343 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/nekomata",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "nekomata",
+    "name": "Nekomata",
+    "aliases": [
+      {
+        "name": "猫又",
+        "language": "Japanese",
+        "romanization": "nekomata",
+        "meaning": "forked cat, two-tailed cat"
+      },
+      {
+        "name": "猫股",
+        "language": "Japanese (alternative kanji)",
+        "romanization": "nekomata"
+      },
+      {
+        "name": "Two-Tailed Cat",
+        "language": "English",
+        "region": "Translation"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Shapeshifter / Japanese Yokai",
+    "tags": [
+      "yokai",
+      "shapeshifter",
+      "japanese-folklore",
+      "cat",
+      "supernatural",
+      "two-tailed",
+      "necromancy",
+      "fire-magic",
+      "malevolent"
+    ],
+    "status": "traditional_folklore",
+    "description": {
+      "summary": "A two-tailed cat yokai, more powerful than bakeneko. Nekomata are cats whose tails have split or forked after many years, granting them enhanced supernatural abilities including shape-shifting, necromancy, and fire magic.",
+      "full": "Nekomata (猫又, 'forked cat' or 'two-tailed cat') is a type of Japanese yokai representing a more powerful form of supernatural cat than the bakeneko. The defining characteristic of nekomata is their split or forked tail, which appears after the cat reaches an advanced age (often cited as 13+ years). These yokai possess formidable supernatural powers including shape-shifting into human form, necromancy (the ability to control and manipulate corpses as puppets, making them dance or speak), fire magic, and even flight. Nekomata can grow to enormous sizes, with some legends describing them as large as lions. While some nekomata are domestic cats that transformed with age, others are wild mountain-dwelling variants that actively hunt humans. These mountain nekomata are particularly feared in Japanese folklore. Nekomata are generally portrayed as more malevolent than bakeneko, often seeking revenge against cruel former owners or acting as independent, dangerous spirits. The traditional practice of cutting cats' tails short was specifically meant to prevent this transformation, contributing to the development of the Japanese Bobtail breed. Famous legends include stories of nekomata replacing their murdered masters and living undetected among humans."
+    },
+    "etymology": {
+      "origin": "From Japanese 猫 (neko, 'cat') and 又/股 (mata, 'fork' or 'again'), referring to the split tail",
+      "meaning": "Forked cat, two-tailed cat, split cat",
+      "first_use": "Kamakura period (1185-1333), with earlier references in some sources"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Shapeshifter",
+      "variant": "Japanese Cat Spirit (Advanced Form)"
+    },
+    "related_phenomena": [
+      {
+        "id": "bakeneko",
+        "name": "Bakeneko",
+        "relationship": "variant",
+        "description": "Generic cat yokai; nekomata is more powerful form"
+      },
+      {
+        "id": "kitsune",
+        "name": "Kitsune",
+        "relationship": "similar",
+        "description": "Fox shapeshifter yokai with similar supernatural abilities"
+      },
+      {
+        "id": "kasha",
+        "name": "Kasha",
+        "relationship": "related",
+        "description": "Cat-like yokai that steals corpses, sometimes conflated with nekomata"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "defining_feature": {
+        "description": "Split or forked tail - two tails instead of one",
+        "significance": "Primary distinguishing characteristic from bakeneko"
+      },
+      "size": {
+        "min": "Larger than normal domestic cat",
+        "max": "Can grow to enormous size, sometimes described as lion-sized",
+        "note": "Size increases with age and power"
+      },
+      "base_form": {
+        "description": "Large cat with two tails",
+        "features": [
+          "Two distinct tails (forked/split from one)",
+          "Often described as very large",
+          "Aged, powerful appearance",
+          "Intelligent, piercing eyes"
+        ]
+      },
+      "transformed_form": {
+        "description": "Can take human form or other shapes",
+        "features": [
+          "Perfect human disguise",
+          "Can impersonate specific individuals",
+          "May retain subtle cat-like features"
+        ]
+      },
+      "age_requirement": {
+        "min_years": 13,
+        "note": "Must be older than bakeneko; some sources cite different ages"
+      }
+    },
+    "abilities": [
+      {
+        "ability": "Shape-shifting",
+        "description": "Transform into human form, often impersonating specific deceased individuals",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Necromancy",
+        "description": "Control corpses as puppets, make them dance, speak through them",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Fire magic",
+        "description": "Create and control fire, fireballs",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Flight",
+        "description": "Ability to fly or levitate",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Human speech",
+        "description": "Speak human language fluently",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Size manipulation",
+        "description": "Can grow to enormous proportions",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "disposition": "primarily_malevolent",
+      "temperament": [
+        "Vengeful (against cruel former owners)",
+        "Malicious (enjoys causing harm)",
+        "Independent (acts as free spirit)",
+        "Predatory (mountain nekomata hunt humans)"
+      ],
+      "notable_behaviors": [
+        "Manipulating corpses as puppets",
+        "Replacing murdered humans and living as them",
+        "Seeking revenge on those who wronged them",
+        "Hunting humans (mountain variants)"
+      ],
+      "activity_period": "nocturnal",
+      "habitat": [
+        "Mountains (wild nekomata)",
+        "Human settlements (transformed domestic cats)",
+        "Remote areas"
+      ]
+    },
+    "variants": {
+      "domestic_nekomata": {
+        "description": "Former domestic cats that transformed after many years",
+        "behavior": "Often revenge-focused against cruel owners"
+      },
+      "mountain_nekomata": {
+        "description": "Wild mountain-dwelling nekomata",
+        "behavior": "Actively hunt and prey on humans",
+        "size": "Often described as very large"
+      }
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Traditional Japanese folklore throughout Japan, with mountain nekomata particularly associated with remote mountain regions",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan",
+        "Mountain regions (wild nekomata)",
+        "Urban areas (transformed domestic cats)"
+      ]
+    },
+    "cultural_context": {
+      "period": "Kamakura period (1185-1333) through modern times",
+      "cultural_significance": "Important yokai in Japanese tradition; influenced tail-cutting practices and Japanese Bobtail breed development"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Part of Japanese yokai tradition; belief in animals gaining supernatural power with age and size",
+      "earliest_accounts": "References dating to Kamakura period and earlier",
+      "folklore_connections": "Connected to broader East Asian beliefs about supernatural animals and Japanese shapeshifter traditions"
+    },
+    "cultural_impact": [
+      {
+        "aspect": "Japanese Bobtail breed",
+        "description": "Fear of nekomata transformation led to widespread practice of cutting cats' tails short"
+      },
+      {
+        "aspect": "Folklore tradition",
+        "description": "One of the most famous and feared yokai in Japanese tradition"
+      },
+      {
+        "aspect": "Popular culture",
+        "description": "Widely featured in modern anime, manga, games, and other media"
+      }
+    ],
+    "famous_legends": [
+      "The cat of Nabeshima - nekomata that killed and replaced a prince's concubine",
+      "Various legends of cats replacing their murdered masters",
+      "Mountain nekomata hunting travelers"
+    ],
+    "modern_era": "Nekomata remain prominent in Japanese popular culture, appearing in anime, manga, video games, and modern interpretations of yokai folklore."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Kamakura and Edo period folklore collections",
+        "Ghost stories and kabuki plays",
+        "Mountain spirit traditions"
+      ],
+      "stories": [
+        "The Nekomata of Nabeshima",
+        "Mountain nekomata hunting tales",
+        "Stories of corpse manipulation"
+      ],
+      "beliefs": "Extremely old or large cats would develop split tails and become powerful, dangerous yokai; prevention required cutting tails short"
+    },
+    "cultural_sensitivity": {
+      "note": "Nekomata are part of traditional Japanese cultural heritage and should be understood within the context of Japanese folklore and yokai tradition",
+      "respect_guidelines": "Approach as genuine cultural tradition with deep historical roots in Japanese spirituality and folklore"
+    },
+    "popular_culture": {
+      "anime_manga": [
+        "Featured in numerous yokai-themed anime and manga",
+        "Popular character archetype for powerful, mysterious characters",
+        "GeGeGe no Kitaro and other yokai series"
+      ],
+      "games": [
+        "Pokemon (various two-tailed cat Pokemon inspired by nekomata)",
+        "Yokai-themed video games",
+        "Various Japanese RPGs"
+      ],
+      "other": [
+        "Modern Japanese horror and supernatural media",
+        "Cultural festivals and yokai tourism",
+        "Merchandise and character design"
+      ]
+    }
+  },
+
+  "theories": {
+    "folkloric": [
+      {
+        "name": "Age and tail-splitting transformation",
+        "description": "After reaching advanced age (13+ years), cat's tail splits into two, granting supernatural powers",
+        "basis": "Traditional folklore belief in age-based transformation"
+      },
+      {
+        "name": "Size-based transformation",
+        "description": "Unusually large cats more likely to become nekomata",
+        "basis": "Physical abnormality as sign of supernatural nature"
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Animistic tradition",
+        "description": "Reflects Shinto belief in all things possessing spirit, especially long-lived beings",
+        "basis": "Japanese spiritual and cultural context"
+      },
+      {
+        "name": "Social control allegory",
+        "description": "Stories served to reinforce proper treatment of animals and respect for nature",
+        "basis": "Folklore as moral instruction"
+      },
+      {
+        "name": "Death and mourning symbolism",
+        "description": "Corpse manipulation abilities may reflect cultural attitudes toward death and the dead",
+        "basis": "Folkloric analysis of necromancy themes"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-2015",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "davisson-yokai",
+      "type": "book",
+      "title": "Yokai Attack! The Japanese Monster Survival Guide",
+      "authors": ["Zack Davisson"],
+      "publication": "Tuttle Publishing",
+      "date": "2013",
+      "isbn": "978-4805312087"
+    },
+    {
+      "id": "yokai-database",
+      "type": "website",
+      "title": "Yokai.com Database - Nekomata",
+      "url": "https://yokai.com/nekomata/",
+      "accessed": "2026-01-14"
+    }
+  ]
+}
